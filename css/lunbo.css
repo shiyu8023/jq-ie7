@@ -1,0 +1,39 @@
+.imgUl{
+    height:400px;
+    width:4000px;
+    position: absolute;
+    left:0;
+}
+.imgLi{
+    width:800px;
+    height:400px;
+    float:left;
+}
+img{
+    width:800px;
+    height:400px;
+}
+.circleUl{
+    position: absolute;
+    z-index: 99;
+    bottom:20px;
+    left:50%;
+    margin-left:-84px;
+}
+.circleLi{
+    height:20px;
+    width:20px;
+    border:1px solid pink;
+    float:left;
+    display: inline-block;
+    margin:0 10px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    cursor: pointer;
+    background:url(about:blank);
+    behavior: url(PIE.htc);
+}
+.circleLi.active{
+    background:pink;
+}
